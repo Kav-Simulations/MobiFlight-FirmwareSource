@@ -19,4 +19,7 @@
 	"remoteUser": "vscode",
 	"workspaceFolder": "/home/vscode/Documents/PlatformIO/Projects",
 	"workspaceMount": "type=bind,source=${localWorkspaceFolder},target=${containerWorkspaceFolder}",
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {}
+	},
 }
