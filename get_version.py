@@ -1,3 +1,6 @@
+# Type `$Env:VERSION = "2.5.x"`` into the platformio terminal.
+# It will remain valid until PlatformIO is closed.
+
 Import("env")
 import os
 
@@ -8,7 +11,7 @@ firmware_version = os.environ.get('VERSION', "")
 if firmware_version == "":
   # When no version is specified default to "0.0.1" for
   # compatibility with MobiFlight desktop app version checks.
-  firmware_version = "2.5.1" # Modified for manual distribution
+  firmware_version = "0.0.1"
 
 # Strip any leading "v" that might be on the version and
 # any leading or trailing periods.
